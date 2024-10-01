@@ -7,7 +7,7 @@ use App\Entity\Technique;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 
-class AppFixtures extends Fixture
+class BeltFixtures extends Fixture
 {
     public function load(ObjectManager $manager): void
     {
